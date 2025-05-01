@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>لعبة تيكيلا</title>
+  <style>
+    body {
+      background-color: #222;
+      color: #fff;
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      padding: 40px;
+    }
+    h1 {
+      font-size: 3em;
+      color: #ffcc00;
+    }
+    .slots {
+      font-size: 60px;
+      margin: 20px;
+    }
+    button {
+      font-size: 24px;
+      padding: 10px 30px;
+      background-color: #ff6600;
+      border: none;
+      border-radius: 10px;
+      color: white;
+      cursor: pointer;
+    }
+    .result {
+      margin-top: 20px;
+      font-size: 24px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>لعبة تيكيلا</h1>
+  <div class="slots" id="slots">🥃 🍺 🍸 🧊</div>
+  <button onclick="spin()">لف الكؤوس!</button>
+  <div class="result" id="result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
